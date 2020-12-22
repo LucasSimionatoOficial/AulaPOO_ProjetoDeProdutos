@@ -1,0 +1,16 @@
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.exe
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.deps.json
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.runtimeconfig.json
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.runtimeconfig.dev.json
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.dll
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\ref\AulaPOO_ProjetoDeProdutos.dll
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\bin\Debug\net5.0\AulaPOO_ProjetoDeProdutos.pdb
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.csprojAssemblyReference.cache
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.AssemblyInfo.cs
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.dll
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\ref\AulaPOO_ProjetoDeProdutos.dll
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.pdb
+C:\Users\User\Documents\Desenvolvimento web senai\Sprint 4 - Backend 2 - POO\AulaPOO_ProjetoDeProdutos\obj\Debug\net5.0\AulaPOO_ProjetoDeProdutos.genruntimeconfig.cache
