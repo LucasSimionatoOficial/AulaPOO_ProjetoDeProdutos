@@ -11,7 +11,7 @@ namespace AulaPOO_ProjetoDeProdutos.classes
         private DateTime DataCadastro { get; set; }
         private Marca Marca { get; set; }
         private Usuario CadastradoPor { get; set; }
-        private List<Produto> ListaDeProdutos;
+        List<Produto> ListaDeProdutos = new List<Produto>();
 
         public void Cadastrar(){
             Produto NovoProduto = new Produto();
@@ -20,8 +20,10 @@ namespace AulaPOO_ProjetoDeProdutos.classes
             int _codigo = 0;
             bool erro = true;
             while (erro){
+                Console.WriteLine("Digite o código do produto");
                 if(int.TryParse(Console.ReadLine(), out _codigo)){
                     NovoProduto.Codigo = _codigo;
+                    erro = false;
                 }else{
                     Console.WriteLine("Apenas números inteiros");
                 }
@@ -32,13 +34,14 @@ namespace AulaPOO_ProjetoDeProdutos.classes
                 Console.WriteLine("Digite o preço do produto");
                 if(int.TryParse(Console.ReadLine(), out _preco)){
                     NovoProduto.Codigo = _preco;
+                    erro2 = false;
                 }else{
                     Console.WriteLine("Apenas números");
                 }
             }
+            Marca marca = new Marca();
             NovoProduto.DataCadastro = DateTime.UtcNow;
-            Console.WriteLine("Digite o nome da marca");
-            NovoProduto.Marca = Marca.Cadastrar();
+            NovoProduto.Marca = marca.Cadastrar();
             NovoProduto.CadastradoPor = new Usuario();
             ListaDeProdutos.Add(NovoProduto);
         }
@@ -50,8 +53,9 @@ namespace AulaPOO_ProjetoDeProdutos.classes
                     Console.WriteLine("Preço: "+item.Preco);
                     Console.WriteLine("Data do cadastro: "+item.DataCadastro);
                     Console.WriteLine("Marca: "+item.Marca);
-                    Console.WriteLine("Cadastrado por: "+item.CadastradoPor);
                 }
+            }else{
+                Console.WriteLine("Nenhum produto cadastrado");
             }
         }
         public void Deletar(int cod){

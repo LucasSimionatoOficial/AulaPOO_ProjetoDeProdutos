@@ -18,6 +18,7 @@ namespace AulaPOO_ProjetoDeProdutos.classes
                 Console.WriteLine("Digite o código da marca");
                 if (int.TryParse(Console.ReadLine(), out _codigo)){
                     nova.Codigo = _codigo;
+                    continuar = false;
                 }else{
                     Console.WriteLine("Apenas números inteiros permitidos");
                 }

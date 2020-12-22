@@ -1,4 +1,4 @@
-﻿using System;
+﻿using AulaPOO_ProjetoDeProdutos.classes;
 
 namespace AulaPOO_ProjetoDeProdutos
 {
@@ -6,7 +6,7 @@ namespace AulaPOO_ProjetoDeProdutos
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Login login = new Login();
         }
     }
 }

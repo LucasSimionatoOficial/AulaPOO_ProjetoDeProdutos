@@ -57,16 +57,22 @@ namespace AulaPOO_ProjetoDeProdutos.classes
         }
         public void Logar(){
             Usuario user = new Usuario();
-            Console.WriteLine("Digite seu email");
-            string _email = Console.ReadLine();
-            Console.WriteLine("Digite sua senha");
-            string _senha = Console.ReadLine();
-            if(_email == user.Email && _senha == user.Senha){
-                Logado = true;
-                Console.WriteLine("Login efetuado");
-            }else{
-                Console.WriteLine("Login ou senha incorretos");
+            bool continuar = true;
+            while (continuar){
+                Console.WriteLine("Login");
+                Console.WriteLine("Digite seu email");
+                string _email = Console.ReadLine();
+                Console.WriteLine("Digite sua senha");
+                string _senha = Console.ReadLine();
+                if(_email == user.Email && _senha == user.Senha){
+                    Logado = true;
+                    Console.WriteLine("Login efetuado");
+                    continuar = false;
+                }else{
+                    Console.WriteLine("Login e/ou senha incorretos");
+                }
             }
+            
         }
         public string Deslogar(){
             
